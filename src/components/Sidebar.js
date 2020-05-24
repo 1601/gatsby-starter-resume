@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.png';
+import avatar from '../assets/images/avatar-gelo.png';
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -16,6 +16,7 @@ export class Sidebar extends Component {
         { content: 'Skills', href: 'skills' },
         { content: 'Interests', href: 'interests' },
         { content: 'Awards', href: 'awards' },
+        { content: 'Portfolio', href: 'portfolio' },
       ],
     };
   }
@@ -69,6 +70,11 @@ export class Sidebar extends Component {
                 </li>
               );
             })}
+            <li className="nav-item" >
+                <a className="nav-link" href={`/Resume Darlo Miguel.pdf`}>
+                      Resume
+                    </a>
+            </li>
           </Scrollspy>
         </div>
       </nav>

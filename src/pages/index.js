@@ -23,10 +23,9 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          I’m an engineer with 5 years of experience, on part time and on full time jobs. I have worked on web development from Wordpress, PHP to JavaScript, React. A full-stack developer that is focused on Javascript technologies. Decentralization and cash-less adherent. 
+Colleagues know me as a reliable engineer who can always be counted to keep the job done. Good code is important for me, and I always look for opportunities to improve. I can (and often do) work well alone, but I’m at my best collaborating with others. 
+
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,69 +51,80 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Director of Product Development</h3>
+              <div className="subheading mb-3">Unosoft Labs</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+              He is the show-runner in the team. He has worked with Nap - his mentor with twenty years of experience in the IT industry since he graduated at University of Santo Tomas, Philippines. Together, they find new talent and mentor them by example. He inspires the team by emboldening them of their potential with his natural appeal and command.
+
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">November 2018–Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Marketing Associate</h3>
+              <div className="subheading mb-3">Pearl Pay Inc.</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+              Responsible for assisting the planning and execution of marketing activities. Implemented product website, marketing campaign to schools and clientele.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">June 2018 - November 2018</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Software Engineer</h3>
+              <div className="subheading mb-3">Unosoft Labs</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+              Together with a  team, built a platform is devised for medical professionals with Javascript frameworks, namely jQuery, Node, MongoDB and Ionic with Angular.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">January 2018 - June 2018</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Web Developer</h3>
+              <div className="subheading mb-3">Adroit Apps Ltd</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+              Using AEM, Adobe Experience Manager, as a platform and creating a theme for a website, Front-end work. Styling and scripting, documentation, project management, project presentation and platform tutorial.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">June 2017- December 2017</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Software Engineer</h3>
+              <div className="subheading mb-3">Mr. Geek Mobile Solutions</div>
+              <p>
+              Responsible for the complete life cycle of a software product, from research and design to implementation, training and support. Created project proposals on Keynote. Provide support on network and office troubleshooting. Pitched ideas to team and clients.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">June 2016- 2017</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Web Developer</h3>
+              <div className="subheading mb-3">SOLUS Interactive Inc.</div>
+              <p>
+              Part-time and Intern, creating websites themes powered by WordPress. Created a raffle system in PHP. 
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">February 2015- July 2015</span>
             </div>
           </div>
         </div>
@@ -131,24 +141,23 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
+              <h3 className="mb-0">University of Santo Tomas</h3>
               <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <div>Computer Science</div>
+              <p>GPA: 1.90</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">June 2012 - June 2016</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">Sta. Teresa College</h3>
+              <div className="subheading mb-3">Pre-school - Middle School - High School</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">June 2000 - June 2012</span>
             </div>
           </div>
         </div>
@@ -236,16 +245,16 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
+            Apart from being a software engineer, I enjoy most of my time being
             outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+            During the colder months here in Philippines, I enjoy mountain hiking,
+            island hopping, and travelling.
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
+            When forced indoors, I follow a number of sports and fantasy genre
+            anime and sitcom television series, I am an aspiring streamer, and I spend a
             large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            advancements in the JavaScript development world.
           </p>
         </div>
       </section>
@@ -260,36 +269,58 @@ const IndexPage = () => (
           <h2 className="mb-5">Awards &amp; Certifications</h2>
           <ul className="fa-ul mb-0">
             <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
+              Place - <a href="https://twitter.com/DEVCONPH/status/975274778692083712"> Startup Weekend MNL 2018 - DevConPH</a>
+            </li>
+            <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
+              IP Passer, PhilNITS 
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
+              Academic Associate, IBM DB2 
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Proxor 2 - Java Certification, Proxor
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
+              Place - HTCXWatson BrainSpark - Web Hackathon
+              2015
             </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
+              Place - University of Santo Tomas - The CSS Quiz Bee
+              2013
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
+              Place - University of Santo Tomas - The CSS Java Cup
+              2013
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
+              Place - University of Santo Tomas - C++ Cup
+              2013
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="portfolio"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Projects &amp; portfolio</h2>
+          <ul className="fa-ul mb-0">
+            <li>
+              Melawares
+            </li>
+           
           </ul>
         </div>
       </section>
