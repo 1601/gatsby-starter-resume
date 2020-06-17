@@ -9,6 +9,11 @@ import Card from 'react-bootstrap/Card';
 
 import melawares from '../assets/images/melawares.png';
 import koppel from '../assets/images/koppel.png';
+import ltph from '../assets/images/ltph.png';
+import pearlpay from '../assets/images/pearlpay.png';
+import portfolio from '../assets/images/portfolio.png';
+import scud from '../assets/images/scud.png';
+import videoscribe from '../assets/images/videoscribe.png';
 
 const IndexPage = () => (
   <Layout>
@@ -354,7 +359,7 @@ Colleagues know me as a reliable engineer who can always be counted to keep the 
               <Card.ImgOverlay style={{position: 'relative'}}>
                 <Card.Title><a href="http://www.koppel.ph/111daysofsummer/">Koppel 111 Days of Summer Raffle System</a> </Card.Title>
                 <Card.Text>
-                Worked on backend that handles registration and raffle draw using PHP, vanilla CSS, HTML and jQuery. With my colleagues at Solus Interactive Inc.
+                Worked on backend that handles registration and raffle draw using PHP, MySQL db, vanilla CSS, HTML and jQuery. With my colleagues at Solus Interactive Inc.
                 </Card.Text>
                 <Card.Text>
                   <ul className="list-inline dev-icons">
@@ -370,11 +375,175 @@ Colleagues know me as a reliable engineer who can always be counted to keep the 
                     <li className="list-inline-item">
                       <i className="fab fa-php"></i>
                     </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-database"></i>
+                    </li>
                   </ul>
                 </Card.Text>
               </Card.ImgOverlay>
             </Card>
-            
+            <br />
+            <Card className="bg-dark text-white">
+              <Card.Img src={scud} alt="Platform for medical professionals" />
+              <Card.ImgOverlay style={{position: 'relative'}}>
+                <Card.Title>Project SCUD</Card.Title>
+                <Card.Text>
+                  <p>Together with Unosoft Labs, developed this complex platform and it's UX Design from the ground-up for a client in the UK.</p>
+                
+<p>It enables practices to publish jobs they require fulfilling. Medics are then instantly notified by email and pop-up notification on their phones of practices’ jobs that match their qualifications and criteria they'd wish to be matched against. It also has compliance processing, invoicing capabilities for medics to bill practices, finance and tax reporting, etc.
+
+It provides users with mobile-responsive browser apps - also compatible with legacy Internet Explorer - and a mobile app for Android and IOS. It also has a browser app for the stakeholders’ HQ team to manage jobs, medics’ and practices’ accounts, compliance requirements, billing, etc.</p>
+
+<p>It is built with Javascript frameworks, namely jQuery, Node, MongoDB and Ionic with Angular.</p>
+                </Card.Text>
+                <Card.Text>
+                  <ul className="list-inline dev-icons">
+                    <li className="list-inline-item">
+                      <i className="fab fa-html5"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-css3-alt"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-node-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-angular"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-database"></i>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
+            <br />
+            <Card className="bg-dark text-white">
+              <Card.Img src={pearlpay} alt="PearlPay landing page" />
+              <Card.ImgOverlay style={{position: 'relative'}}>
+                <Card.Title><a href="http://pearlpay.com">Pearl Pay Website</a> </Card.Title>
+                <Card.Text>
+                Designed and develop Pearl Pay website on the company's early stages in cooperation and feedback with Marketing team, built on WordPress 
+                </Card.Text>
+                <Card.Text>
+                  <ul className="list-inline dev-icons">
+                    <li className="list-inline-item">
+                      <i className="fab fa-html5"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-css3-alt"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-wordpress"></i>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
+            <br />
+            <Card className="bg-dark text-white">
+              <Card.Img src={videoscribe} alt="Videoscribe landing page" />
+              <Card.ImgOverlay style={{position: 'relative'}}>
+                <Card.Title><a href="http://videoscribe.co">VideoScribe</a> </Card.Title>
+                <Card.Text>
+                <p>Together with Unosoft Labs, we worked with Sparkol to deliver a brand new static-page, headless architecture design.</p>
+                <p>Sparkol is a UK company that launched Videoscribe - a whiteboard animation software and Storypix - a simple video creator from a user’s image gallery.
+
+With a simpler, playful user experience and functionality compared to their counterparts from Adobe, their products appeal to teachers, bloggers, training personnel, etc. - who aren’t professional video producers.
+
+Sparkol’s website has been built in-house by freelance consultants using Kentico CMS built on .NET and SQL Server. Its content regards marketing information, pricing and payment options for their products.</p>
+<p>The new portal is built with React with Gatsby and Contentful for its CMS system.</p>
+
+                </Card.Text>
+                <Card.Text>
+                  <ul className="list-inline dev-icons">
+                    <li className="list-inline-item">
+                      <i className="fab fa-html5"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-css3-alt"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-node-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-react"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-tools"></i>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
+            <br />
+            <Card className="bg-dark text-white">
+              <Card.Img src={ltph} alt="Little Things PH Landing page" />
+              <Card.ImgOverlay style={{position: 'relative'}}>
+                <Card.Title><a href="http://ltph.unosoftlabs.com">Little Things PH App</a> </Card.Title>
+                <Card.Text>
+                <p>Together with Unosoft Labs, we built this mobile app as supporters of the community and to showcase the team’s engineering skills.</p>
+                <p>Little Things PH is a popular comic-strip gallery group on Facebook; has garnered over 280,000 followers so far.
+
+It is home to illustrations and musings from its creator and our Senior Software Engineer, Ivyree Rosario.</p>
+<p>The mobile app is built using React Native with Expo, Firebase and Contentful for its CMS</p>
+                </Card.Text>
+                <Card.Text>
+                  <ul className="list-inline dev-icons">
+                  <li className="list-inline-item">
+                      <i className="fab fa-node-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-react"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-tools"></i>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
+            <br />
+            <Card className="bg-dark text-white">
+              <Card.Img src={portfolio} alt="My Portfolio landing page" />
+              <Card.ImgOverlay style={{position: 'relative'}}>
+                <Card.Title><a href="http://darlomiguel.now.sh">My Portfolio</a> </Card.Title>
+                <Card.Text>
+                My portfolio built with GatsbyJS deployed on Vercel
+                </Card.Text>
+                <Card.Text>
+                  <ul className="list-inline dev-icons">
+                    <li className="list-inline-item">
+                      <i className="fab fa-html5"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-css3-alt"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-node-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-react"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-tools"></i>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
           </div>
         </div>
       </section>
