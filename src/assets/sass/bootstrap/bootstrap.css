@@ -4643,7 +4643,7 @@ input[type="button"].btn-block {
 }
 
 .card-img-overlay {
-  position: absolute;
+  position: none;
   top: 0;
   right: 0;
   bottom: 0;

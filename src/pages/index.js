@@ -5,6 +5,11 @@ import Layout from '../components/Layout';
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import Card from 'react-bootstrap/Card';
+
+import melawares from '../assets/images/melawares.png';
+import koppel from '../assets/images/koppel.png';
+
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -316,12 +321,61 @@ Colleagues know me as a reliable engineer who can always be counted to keep the 
       >
         <div className="w-100">
           <h2 className="mb-5">Projects &amp; portfolio</h2>
-          <ul className="fa-ul mb-0">
-            <li>
-              Melawares
-            </li>
-           
-          </ul>
+          <div>
+            <Card className="bg-dark text-white">
+              <Card.Img src={melawares} alt="Melawares tableware landing page" />
+              <Card.ImgOverlay style={{position: 'relative'}}>
+                <Card.Title><a href="http://melawares.com">Melawares</a></Card.Title>
+                <Card.Text>
+                  Worked on theming the WordPress site with vanilla CSS, HTML and jQuery. With my colleagues at Solus Interactive Inc.
+                </Card.Text>
+                <Card.Text>
+                <ul className="list-inline dev-icons">
+                  <li className="list-inline-item">
+                    <i className="fab fa-html5"></i>
+                  </li>
+                  <li className="list-inline-item">
+                    <i className="fab fa-css3-alt"></i>
+                  </li>
+                  <li className="list-inline-item">
+                    <i className="fab fa-js"></i>
+                  </li>
+                  <li className="list-inline-item">
+                    <i className="fab fa-wordpress"></i>
+                  </li>
+                  
+                </ul>
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
+            <br />
+            <Card className="bg-dark text-white">
+              <Card.Img src={koppel} alt="Koppel 111 Days of Summer landing page" />
+              <Card.ImgOverlay style={{position: 'relative'}}>
+                <Card.Title><a href="http://www.koppel.ph/111daysofsummer/">Koppel 111 Days of Summer Raffle System</a> </Card.Title>
+                <Card.Text>
+                Worked on backend that handles registration and raffle draw using PHP, vanilla CSS, HTML and jQuery. With my colleagues at Solus Interactive Inc.
+                </Card.Text>
+                <Card.Text>
+                  <ul className="list-inline dev-icons">
+                    <li className="list-inline-item">
+                      <i className="fab fa-html5"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-css3-alt"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-js"></i>
+                    </li>
+                    <li className="list-inline-item">
+                      <i className="fab fa-php"></i>
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.ImgOverlay>
+            </Card>
+            
+          </div>
         </div>
       </section>
     </div>
