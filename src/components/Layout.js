@@ -1,8 +1,10 @@
+import "jquery"
+import 'popper.js';
+import 'bootstrap/dist/js/bootstrap';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import $ from 'jquery';
 import '../assets/sass/resume.scss';
 
 class Layout extends Component {

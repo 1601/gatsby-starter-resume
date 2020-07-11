@@ -5,6 +5,9 @@
  */
 
 // You can delete this file if you're not using it
+import "jquery"
+import 'popper.js';
+import 'bootstrap/dist/js/bootstrap';
 const $ = require("jquery")
 
 export const onInitialClientRender = () => {
