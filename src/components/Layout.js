@@ -1,6 +1,6 @@
-import "jquery"
-import 'popper.js';
-import 'bootstrap/dist/js/bootstrap';
+// import $ from 'jQuery'
+// import 'popper.js';
+// import 'bootstrap/dist/js/bootstrap';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';

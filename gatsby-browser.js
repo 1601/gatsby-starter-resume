@@ -1,17 +1,4 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
-
-// You can delete this file if you're not using it
-import "jquery"
-import 'popper.js';
-import 'bootstrap/dist/js/bootstrap';
-const $ = require("jquery")
-
-export const onInitialClientRender = () => {
-  $(document).ready(function () {
-    console.log("The answer is don't think about it!")
-  });
-}
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "jquery";
+// import "popper.js/dist/popper.min";
+// import "bootstrap/dist/js/bootstrap.min.js";
