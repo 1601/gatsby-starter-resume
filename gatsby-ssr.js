@@ -7,7 +7,9 @@
 // You can delete this file if you're not using it
 import React from 'react'
 
-export const onRenderBody = ({ setPostBodyComponents }) => {
+export const onRenderBody = ({ setPostBodyComponents, setHeadComponents }) => {
+  setHeadComponents([<script async src="https://cdn.splitbee.io/sb.js"></script>])
+  
   setPostBodyComponents([
     <script
       key="https://code.jquery.com/jquery-3.2.1.slim.min.js"
