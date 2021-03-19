@@ -17,7 +17,7 @@ import videoscribe from '../assets/images/videoscribe.png';
 
 const IndexPage = () => (
   <Layout>
-   <iframe src='https://flask.io/x6uZp8ocJHls?embed=true' style={{width: '100%'; height: '500px'}} frameborder='0' allowfullscreen='allowfullscreen'></iframe>
+   <iframe src='https://flask.io/x6uZp8ocJHls?embed=true' style={{width: '100%', height: '500px'}} frameborder='0' allowfullscreen='allowfullscreen'></iframe>
   </Layout>
 );
 
